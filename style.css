@@ -78,10 +78,6 @@ button.submit {
     cursor: pointer;
 }
 
-.mobile-icon {
-    display: none;
-}
-
 .inner-container {
     display: flex;
     margin-top: 151px;
@@ -129,8 +125,6 @@ p.we-are {
     font-size: 18px;
     line-height: 24px;
     color: #333131;
-    width: 122%;
-    /* height: 193px; */
     margin-top: 18px;
 }
 
@@ -222,20 +216,51 @@ button.submit {
     width: 460px;
 }
 
-img.mobile-icon {
-    display: block;
-    margin-top: 47px;
-    width: 550px;
-    height: 439.83px;
-    left: -75px;
-}
-
 .outer-container {
-    background: #4a1a0e;
-    
+    margin-inline: 49px;
 }
 
 .inner-container {
-    height: 686px;
+    height: 886px;
+    width: 455px;
+}
+
+.group-question {
+    display: block;
+    margin-left: 32px;
+}
+
+.heading-pic {
+    display: block;
+}
+
+h3.who {
+    margin-left: 0%;
+}
+
+.question {
+    margin-left: 0px;
+    margin-top: 16%;
+}
+
+.heading-pic2 {
+    display: block;
+}
+
+.question-background {
+    width: 88px;
+}
+
+h3.why {
+    margin-left: 0px;
+}
+
+p.we-believe {
+    margin-top: 28px;
+    line-height: 28px;
+}
+
+footer {
+    height: 0%;
 }
 }
