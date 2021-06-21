@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Template</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600&display=swap&family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Epilogue', sans-serif;
+      }
+
+      main {
+        background-color: #4a1a0e;
+        color: white;
+        padding: 70px;
+        position: relative;
+        z-index: 0;
+      }
+
+      .cheetos {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+      }
+
+      .logo {
+        width: 255px;
+        margin-bottom: 40px;
+      }
+
+      .cheetos {
+        width: 500px;
+      }
+
+      .top-section {
+        max-width: 672px;
+      }
+
+      h1 {
+        font-size: 42px;
+        margin-bottom: 10px;
+        line-height: 50px;
+        font-family: 'Sen', sans-serif;
+      }
+
+      .info {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 22px;
+        margin-bottom: 40px;
+      }
+
+      input,
+      .join-now {
+        height: 55px;
+        box-sizing: border-box;
+        padding: 8px 16px;
+      }
+
+      .input-with-button {
+        margin-top: 30px;
+        margin-bottom: 100px;
+        display: flex;
+      }
+
+      input {
+        flex: 3;
+        border: 1px solid rgba(255, 254, 254, 0.51);
+        background-color: #fcfcfc;
+        border-radius: 6px 0px 0px 6px;
+        color: #c1bdbd;
+        font-size: 18px;
+
+        font-weight: 400;
+        background-color: #fcfcfc;
+        border: 1px solid rgba(255, 254, 254, 0.51);
+      }
+
+      .join-now {
+        flex: 1;
+        background-color: #f18404;
+        border-radius: 0px 6px 6px 0px;
+        font-weight: 600;
+        color: #fcfcfc;
+        font-size: 18px;
+        line-height: 22px;
+        border: none;
+      }
+
+      .bottom-section {
+        background-color: #f9f7f5;
+        border-radius: 35px;
+        padding: 50px 25px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .icon-image {
+        border-radius: 8px;
+        background: #f2edea;
+        padding: 16px;
+      }
+
+      .bottom-section header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .bottom-section header img {
+        margin-right: 15px;
+        max-height: 41px;
+      }
+
+      .bottom-section h2 {
+        color: #4a1a0e;
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      .bottom-section p {
+        color: #333131;
+        line-height: 24px;
+      }
+
+      .bottom-section .left,
+      .bottom-section .right {
+        flex: 2;
+      }
+
+      .bottom-section .middle {
+        flex: 1;
+      }
+
+      footer img {
+        margin: 50px auto;
+        display: block;
+        background-color: #f9f8f7;
+      }
+
+      .copyright {
+        color: grey;
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 32px;
+        float: right;
+        margin-bottom: 30px;
+        margin-right: 30px;
+      }
+
+      @media only screen and (max-width: 1220px) {
+        .cheetos {
+          width: 300px;
+        }
+      }
+
+      @media only screen and (max-width: 960px) {
+        .cheetos {
+          width: 200px;
+        }
+      }
+
+      @media only screen and (max-width: 630px) {
+        main {
+          padding: 30px;
+        }
+
+        .logo {
+          width: 160px;
+        }
+
+        .cheetos {
+          width: 100px;
+        }
+
+        .input-with-button {
+          flex-direction: column;
+        }
+
+        .input-with-button input,
+        .input-with-button button {
+          border-radius: 6px;
+          flex: none;
+        }
+
+        .input-with-button input {
+          margin-bottom: 15px;
+        }
+
+        h1 {
+          font-size: 28px;
+          line-height: 32px;
+        }
+
+        .info {
+          font-size: 14px;
+          line-height: 22px;
+        }
+
+        .bottom-section {
+          flex-direction: column;
+        }
+
+        .bottom-section header {
+          display: block;
+        }
+
+        .bottom-section .left {
+          margin-bottom: 50px;
+        }
+
+        .copyright {
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="logo.png" alt="Dumele logo" class="logo" />
+      <img src="cheetos.png" alt="Cheetos" class="cheetos" />
+
+      <section class="top-section">
+        <h1>
+          Embedding technological innovation into a multi-use future of African
+          artisanal products
+        </h1>
+
+        <p class="info">
+          Dumele is designed to intergrate technological innovation into the
+          preservation of African artisanal products and practices
+        </p>
+
+        <div class="input-with-button">
+          <input type="text" placeholder="Your email address" />
+          <button class="join-now">Join Waitlist</button>
+        </div>
+      </section>
+
+      <section class="bottom-section">
+        <div class="left">
+          <header>
+            <img
+              src="people-group.png"
+              alt="people in a group"
+              class="icon-image"
+            />
+
+            <h2>Who we are</h2>
+          </header>
+
+          <p>
+            We are a group of engineers, developers, designers, artisans and
+            strategists, We specializes in the conceptualization, design, and
+            embedding of technological software and hardware, to create
+            multisensory experiences with indigenously-inspired goods.
+          </p>
+        </div>
+
+        <div class="middle"></div>
+
+        <div class="right">
+          <header>
+            <img
+              src="person-with-question.png"
+              alt="people in a group"
+              class="icon-image"
+            />
+
+            <h2>Our why</h2>
+          </header>
+
+          <p>
+            We believe in a world where machines simply cannot compete with
+            human ingenuity but rather enable it. We believe in a world where
+            fewer people are left behind as their artisanal skills are utilized
+            to craft modernity. And we believe in a world where information and
+            stories are preserved to strengthen the cultures into which we are
+            born.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="email.png" alt="Email" />
+      <img src="some-design.png" alt="design" />
+      <img src="dumele-name.png" alt="Dumele logo" />
+
+      <p class="copyright">Copyright 2021 Dumele</p>
+    </footer>
+  </body>
+</html>
