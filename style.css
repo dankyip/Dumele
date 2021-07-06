@@ -1,266 +1,254 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-body {
-    background: #4a1a0e;
-}
-
-header {
-    display: flex;
+main {
+  background: #4a1a0e;
+  padding-bottom: 74px;
+  overflow: hidden;
 }
 
 .dumele-sign {
-    margin: 66px;
+  margin: 66px 0 74px 74px;
 }
 
 .dumele-symbol {
-    position: absolute;
-    right: 0px;
+  width: 590px;
+  position: absolute;
+  right: 0;
 }
 
 .introduction {
-    font-style: normal;
-    margin-left: 74px;
+  font-style: normal;
+  padding: 0 30px 0 74px;
+  max-width: 672px;
 }
 
 h1.intro-text {
-    font-family: sen;
-    font-weight: bold;
-    font-size: 42px;
-    line-height: 50px;
-    width: 672px;
+  font-family: sen;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 50px;
 
-    color: #ffffff;
+  color: #ffffff;
 }
 
 p.paragraph-text {
-    font-family: Epilogue;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    width: 511px;
-    margin-top: 10px;
+  font-family: Epilogue;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 10px;
 
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .cta {
-    font-family: Epilogue;
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    margin-top: 46px;
+  font-family: Epilogue;
+  display: flex;
+  margin-top: 46px;
+  height: 55px;
+}
+
+input.form,
+button.submit {
+  padding: 0 16px;
 }
 
 input.form {
-    height: 55px;
-    width: 429px;
+  flex: 3;
 
-    font-weight: normal;
-    
-    background: #fcfcfc;
-    border: 1px solid rgba(255, 254, 254, 0.51);
-    box-sizing: border-box;
-    border-radius: 6px 0px 0px 6px;
+  font-size: 18px;
+  font-weight: 400;
+
+  background: #fcfcfc;
+  border: 1px solid rgba(255, 254, 254, 0.51);
+  border-radius: 6px 0px 0px 6px;
 }
 button.submit {
-    height: 57px;
-    width: 179px;
+  flex: 1;
 
-    font-weight: 600;
-    color: #fcfcfc;
-    
-    background: #f18404;
-    border-radius: 0px 6px 6px 0px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fcfcfc;
 
-    cursor: pointer;
+  background: #f18404;
+  border-radius: 0px 6px 6px 0px;
+  border: none;
+
+  cursor: pointer;
 }
 
 .inner-container {
-    display: flex;
-    margin-top: 151px;
-    margin-inline: 30px;
-    height: 371px;
-    font-family: Epilogue;
-    font-style: normal;
-    
-    background: #f9f7f5;
-    box-shadow: 0px 0px 4px 10px rgba(74, 26, 14, 0.02);
-    border-radius: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin: 121px 74px 0 74px;
+  padding: 50px 25px;
+  font-family: Epilogue;
+  font-style: normal;
+
+  background: #f9f7f5;
+  box-shadow: 0px 0px 4px 10px rgba(74, 26, 14, 0.02);
+  border-radius: 35px;
 }
 
-.heading-pic {
-    display: flex;
-}
-
-.group-question {
-    display: flex;
-    margin-top: 5%;
-    margin-inline: 50px;
-}
-
-.group-background {
-    background: #f2edea;
-    width: 88px;
-    height: 84px;
-    border-radius: 8px;
+.inner-container .group,
+.inner-container .question {
+  flex: 2;
 }
 
 img.group-img {
-    margin: 21px;
+  border-radius: 8px;
+  background: #f2edea;
+  padding: 16px;
 }
 
-h3.who {
-    width: 119px;
-    height: 20px;
-    color: #4a1a0e;
-    margin-left: 40px;
-    margin-top: 28px;
+.inner-container header {
+  display: flex;
+  align-items: center;
 }
 
-p.we-are {
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    color: #333131;
-    margin-top: 18px;
+h3 {
+  color: #4a1a0e;
+  padding-left: 40px;
+}
+
+p.we-are,
+p.we-believe {
+  font-weight: normal;
+  line-height: 24px;
+  color: #333131;
+  margin-top: 18px;
 }
 
 .question {
-    margin-left: 121px;
-}
-
-.heading-pic2 {
-    display: flex;
-}
-
-.question-background {
-    background: #f2edea;
-    border-radius: 8px;
+  padding-left: 197px;
 }
 
 img.question-img {
-    margin: 21px;
+  padding: 16px;
+  border-radius: 8px;
+  background: #f2edea;
 }
 
-h3.why {
-    color: #4a1a0e;
-    margin-left: 40px;
-    margin-top: 28px;
-}
-
-p.we-believe {
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    color: #333131;
-    margin-top: 18px;
-}
-
-footer {
-    display: flex;
-    margin-top: 141px;
-    height: 385px;
-    background: #f9f8f7;
-}
-
-.foot {
-    margin: auto;
-    margin-right: 325px;
-    text-align: center;
-}
-
-.logo2 {
-    margin-top: 48px;
-    margin-bottom: 21px;
+footer img {
+  display: block;
+  margin: 50px auto;
 }
 
 .copyright {
-    font-family: Epilogue;
-    font-style: normal;
-    font-weight: 200px;
-    font-size: 20px;
-    margin-right: 4%;
-    margin-top: 329px;
-    
-    color: #56556c;
+  float: right;
+  margin-right: 30px;
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 32px;
+  color: #56556c;
 }
 
-@media only screen and (max-width: 375px) {
-h1.intro-text {
-    width: 460px;
+@media only screen and (max-width: 1340px) {
+  .dumele-symbol {
+    width: 550px;
+  }
 }
 
-p.paragraph-text {
-    width: 410px;
-    line-height: 26px;
-    height: 82px;
+@media only screen and (max-width: 1265px) {
+  .dumele-symbol {
+    width: 500px;
+  }
 }
 
-.dumele-symbol{
-    display: none;
+@media only screen and (max-width: 1150px) {
+  .dumele-symbol {
+    width: 400px;
+  }
 }
 
-.cta {
+@media only screen and (max-width: 1050px) {
+  .dumele-symbol {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .dumele-symbol {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 898px) {
+  .inner-container {
     display: block;
-}
+    margin-left: 27px;
+    margin-right: 27px;
+  }
 
-input.form {
-    width: 460px;
-    margin-bottom: 27px;
-}
-
-button.submit {
-    width: 460px;
-}
-
-.outer-container {
-    margin-inline: 49px;
-}
-
-.inner-container {
-    height: 886px;
-    width: 455px;
-}
-
-.group-question {
+  .inner-container header {
     display: block;
-    margin-left: 32px;
+  }
+
+  h3 {
+    padding-left: 0;
+    padding-top: 8px;
+  }
+
+  .question {
+    padding-left: 0;
+    padding-top: 50px;
+  }
 }
 
-.heading-pic {
-    display: block;
-}
+@media only screen and (max-width: 630px) {
+  .introduction {
+    padding-left: 30px;
+  }
 
-h3.who {
-    margin-left: 0%;
-}
+  .dumele-symbol {
+    width: 100px;
+  }
 
-.question {
-    margin-left: 0px;
-    margin-top: 16%;
-}
+  .dumele-sign {
+    width: 160px;
+    margin-left: 30px;
+  }
 
-.heading-pic2 {
-    display: block;
-}
+  .cta {
+    flex-direction: column;
+  }
 
-.question-background {
-    width: 88px;
-}
+  button.submit {
+    margin-top: 10px;
+  }
 
-h3.why {
-    margin-left: 0px;
-}
+  .cta input,
+  .cta button {
+    flex: none;
+    border-radius: 6px;
+    height: 55px;
+  }
 
-p.we-believe {
-    margin-top: 28px;
-    line-height: 28px;
-}
+  h1.intro-text {
+    font-size: 28px;
+    line-height: 32px;
+  }
 
-footer {
-    height: 0%;
-}
+  p.paragraph-text {
+    font-size: 14px;
+    line-height: 22px;
+    width: 106%;
+  }
+
+  .inner-container {
+    border-radius: 15px;
+  }
+
+  .copyright {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
 }
