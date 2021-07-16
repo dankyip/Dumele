@@ -44,7 +44,7 @@ p.paragraph-text {
   color: #ffffff;
 }
 
-.cta {
+form {
   font-family: Epilogue;
   display: flex;
   margin-top: 46px;
@@ -215,7 +215,7 @@ footer img {
     margin-left: 30px;
   }
 
-  .cta {
+  form {
     flex-direction: column;
   }
 
@@ -223,8 +223,8 @@ footer img {
     margin-top: 10px;
   }
 
-  .cta input,
-  .cta button {
+  input.form,
+  button.submit{
     flex: none;
     border-radius: 6px;
     height: 55px;

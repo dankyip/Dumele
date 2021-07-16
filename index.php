@@ -15,9 +15,9 @@
   <body>
     <main>
       <a href="index.html"
-        ><img src="img\dumele.png" class="dumele-sign" alt="dumele"
+        ><img src="img/dumele.png" class="dumele-sign" alt="dumele"
       /></a>
-      <img src="img\logo.png" class="dumele-symbol" alt="dumele logo" />
+      <img src="img/logo.png" class="dumele-symbol" alt="dumele logo" />
       <section class="introduction">
         <h1 class="intro-text">
           Embedding technological innovation into a multi-use future of African
@@ -27,16 +27,16 @@
           Dumele is designed to intergrate technological innovation into the
           preservation of African artisanal products and practice
         </p>
-        <div class="cta">
-          <input type="text" class="form" placeholder="Your email address" />
-          <button class="submit" type="submit">Join Waitlist</button>
-        </div>
+          <form action="site.php" method="post">
+            <input type="text" class="form" name="email" placeholder="Your email address" />
+            <button class="submit" type="submit">Join Waitlist</button>
+          </form>
       </section>
 
       <section class="inner-container">
         <div class="group">
           <header>
-            <img src="img\group.png" class="group-img" alt="group" />
+            <img src="img/group.png" class="group-img" alt="group" />
             <h3 class="who">Who we are</h3>
           </header>
           <p class="we-are">
@@ -48,7 +48,7 @@
         </div>
         <div class="question">
           <header>
-            <img src="img\question.png" class="question-img" alt="question" />
+            <img src="img/question.png" class="question-img" alt="question" />
             <h3 class="why">Our why</h3>
           </header>
           <p class="we-believe">
@@ -63,9 +63,9 @@
       </section>
     </main>
     <footer>
-      <img src="img\email.png" class="email" alt="email" />
-      <img src="img\logo2.png" class="logo-2" alt="dumele" />
-      <img src="img\dumele2.png" class="dumele2" alt="dumele" />
+      <img src="img/email.png" class="email" alt="email" />
+      <img src="img/logo2.png" class="logo-2" alt="dumele" />
+      <img src="img/dumele2.png" class="dumele2" alt="dumele" />
 
       <p class="copyright">Copyright Dumele 2021</p>
     </footer>
